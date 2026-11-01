@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
   //   2. Enable 2-Step Verification
   //   3. Search "App passwords" → create one for "Mail"
   //   4. Add these to your .env.local:
-  //        GMAIL_USER=tarunbiswas2800@gmail.com   ← your actual gmail
+  //        GMAIL_USER=tarunkumarbiswas@gmail.com   ← your actual gmail
   //        GMAIL_PASS=xxxx xxxx xxxx xxxx           ← 16-char app password
   // ───────────────────────────────────────────────────────────────────
   const transporter = nodemailer.createTransport({
