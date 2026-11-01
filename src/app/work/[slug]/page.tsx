@@ -167,7 +167,15 @@ export default async function ProjectPage({ params }: Props) {
           <div className="border-t border-[#1e1e1c] pt-10 mb-8">
             <p className="font-condensed font-bold text-[0.72rem] tracking-[0.2em] text-dim">SCREENS &amp; MOCKUPS</p>
           </div>
-          {project.mockups.length === 1 ? (
+          {project.wideMockups ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] mx-auto">
+              {project.mockups.map((src, i) => (
+                <div key={i} className="relative overflow-hidden rounded-xl" style={{ aspectRatio: "16/10" }}>
+                  <Image src={src} alt={`${project.title} screen ${i + 1}`} fill className="object-cover" sizes="(max-width: 768px) 100vw, 600px" />
+                </div>
+              ))}
+            </div>
+          ) : project.mockups.length === 1 ? (
             <div className="relative mx-auto" style={{ maxWidth: 860, aspectRatio: "16/10" }}>
               <Image src={project.mockups[0]} alt={`${project.title} mockup`} fill className="object-contain" sizes="860px" />
             </div>

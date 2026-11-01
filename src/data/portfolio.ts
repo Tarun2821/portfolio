@@ -134,18 +134,13 @@ export const projects: Project[] = [
     accentColor: "#7a6fb5",
     slug: "task-management",
 
-    image: "/task1.png",
+    image: "/taskpro-dashboard.png",
 
     // Add 1–2 extra screenshots after placing them in /public
     // e.g. ["/task-board.png", "/task-detail.png"]
-    images: ["/task2.png", "/task3.png"],
+    images: ["/taskpro-kanban.png", "/taskpro-detail.png"],
 
-<<<<<<< HEAD
-    // Wide laptop mockup of the task detail screen (shown under "Screens & Mockups")
-    mockups: ["/task4.png"],
-=======
     mockups: [],
->>>>>>> 9565a79f50c33d47065f31f4575b7a3fff9669dd
 
     overview:
       "A task management system designed to help individuals and teams organize, track, and manage their daily tasks efficiently. The goal was to create a clear and structured interface that improves productivity and reduces task management complexity.",
@@ -178,115 +173,6 @@ export const projects: Project[] = [
     outcome:
       "The system improves task organization, enhances productivity, and enables users to manage their work more effectively with clear tracking and prioritization.",
   },
-<<<<<<< HEAD
-
-  // ─────────────────────────────────────────────
-  // PROJECT 4 — Multi Care Engineering App
-  // ─────────────────────────────────────────────
-  {
-    id: 4,
-    title: "MULTI CARE ENGINEERING",
-    category: ["Mobile App", "UI/UX Design"],
-    year: "2026",
-    description:
-      "A mobile app for Multi Care Engineering to present services, simplify service requests, and keep customers connected with the engineering team.",
-    bgColor: "#0c1624",
-    accentColor: "#4a9ee8",
-    slug: "multi-care-engineering",
-
-    // TODO: replace placeholder with the real banner (upload Multi-care zip was corrupted)
-    image: "/multicare-cover.png",
-    images: [],
-    mockups: [],
-
-    overview:
-      "Multi Care Engineering is an engineering services company. The goal of this project was to design a clear, easy-to-use app that presents the company's services and makes it simple for customers to reach the team and request support.",
-
-    objectives: [
-      "Present engineering services in a clear, structured way",
-      "Make service requests quick and straightforward",
-      "Build trust through a clean, professional interface",
-      "Keep customers connected with the team",
-    ],
-
-    problem:
-      "Customers had no single, simple place to understand the available services or request help. Information was spread out, making it slow to get in touch and hard to follow up.",
-
-    solution:
-      "Designed a mobile app that organizes services into a simple structure and gives customers a direct path to enquire, request support and stay in touch with the team.",
-
-    features: [
-      "Clear service listing and categories",
-      "Quick service request and enquiry flow",
-      "Direct contact with the engineering team",
-      "Clean, professional visual identity",
-      "Responsive, mobile-first layouts",
-    ],
-
-    approach:
-      "A mobile-first approach with strong hierarchy, generous spacing and a calm blue palette that communicates reliability. Navigation is kept shallow so key actions are always within a tap or two.",
-
-    outcome:
-      "The app gives customers a clearer view of the services on offer and a faster route to getting support.",
-  },
-
-  // ─────────────────────────────────────────────
-  // PROJECT 5 — Skivo (smart scooter rental app)
-  // ─────────────────────────────────────────────
-  {
-    id: 5,
-    title: "SKIVO",
-    category: ["Mobile App", "UI/UX Design"],
-    year: "2026",
-    description:
-      "A smart scooter rental app that brings renting, wallet management, booking details and ride history together in one simple mobile experience for iOS and Android.",
-    bgColor: "#2a140c",
-    accentColor: "#e8663d",
-    slug: "skivo",
-
-    image: "/skivo-cover.png",
-    images: [],
-    mockups: [
-      "/skivo-splash.png",
-      "/skivo-signin.png",
-      "/skivo-dashboard.png",
-      "/skivo-wallet.png",
-      "/skivo-rides.png",
-    ],
-
-    overview:
-      "SKIVO is a smart scooter rental application designed to make everyday commuting more convenient. It brings the essential rental activities into one mobile experience, letting users access their account, view wallet information, manage rides and review booking history. Industry: Mobility & Transportation. My role: UI/UX Designer. Platform: iOS / Android.",
-
-    objectives: [
-      "Simplify access: make key rental actions easy to find from the dashboard",
-      "Build clarity: present wallet balance, security deposit and transactions clearly",
-      "Support ride management: help users review all, upcoming and cancelled rides",
-      "Create consistency: use repeatable components, spacing and visual patterns",
-    ],
-
-    problem:
-      "Vehicle rental journeys can feel fragmented when users have to move between separate steps or struggle to understand payment and booking information. The interface needed to make important actions easy to discover and rental-related information easy to understand. Target users: daily commuters, students and young professionals, and occasional riders who need a scooter for short trips.",
-
-    solution:
-      "A focused app built around practical user needs: mobile-number sign-in with terms confirmation, a dashboard centred on the main 'Rent a Scooter' action, a wallet that separates balance from security deposit, and a ride summary organized by All, Upcoming and Cancelled. The principle: keep high-frequency actions prominent, make financial information scannable, and use familiar navigation patterns.",
-
-    features: [
-      "Mobile-number sign-in / sign-up with terms confirmation",
-      "Dashboard with wallet balance and remaining rental days",
-      "One-tap 'Rent a Scooter' quick action",
-      "Wallet with add money, refund and security deposit",
-      "Transaction history with date filters and categories",
-      "Ride summary with All, Upcoming and Cancelled tabs plus filter and sort",
-      "Booking cards with location, vehicle, duration and payment method",
-      "Refer & Earn with a shareable referral code",
-    ],
-
-    approach:
-      "The process moved from Understand (requirements and main user tasks), to Structure (navigation across sign-in, dashboard, wallet, rentals, bookings and profile), to Layout (screen hierarchy and primary vs secondary actions), to Visual Design and finally Refine. The visual direction uses orange/coral for primary actions, navy for headings and contrast, light blue/white for surfaces and green for positive financial states, with a card-based layout, rounded corners and consistent spacing for quick scanning.",
-
-    outcome:
-      "The interface brings authentication, dashboard actions, wallet management and ride history into one cohesive mobile experience, giving users a clear foundation to manage their scooter-rental activity from a single app. Next steps: validate the rental journey with usability testing, test wallet, deposit and refund terminology, review accessibility (contrast and touch targets), and measure task completion and drop-off across the booking flow.",
-=======
   // ─────────────────────────────────────────────
   // PROJECT 4 — Multi Engineer Service
   // ─────────────────────────────────────────────
@@ -342,9 +228,65 @@ export const projects: Project[] = [
 
     outcome:
       "Technicians get a single, clear place to handle complaints, stock and expenses, which makes field updates faster and gives teams better visibility into work in progress.",
->>>>>>> 9565a79f50c33d47065f31f4575b7a3fff9669dd
+  },
+
+  // ─────────────────────────────────────────────
+  // PROJECT 5 — Skivo
+  // ─────────────────────────────────────────────
+  {
+    id: 5,
+    title: "SKIVO",
+    category: ["Mobile Design", "Case Study"],
+    year: "2026",
+    description:
+      "A mobile app for renting electric scooters on demand — featuring wallet management, ride tracking, flexible rental plans, and eco-friendly urban mobility.",
+    bgColor: "#1a0f0a",
+    accentColor: "#e86532",
+    slug: "skivo",
+
+    image: "/skivo-banner.jpg",
+    images: ["/skivo-banner.jpg", "/skivo-wallet.png"],
+    mockups: [
+      "/skivo-splash.png",
+      "/skivo-login.png",
+      "/skivo-dashboard.png",
+      "/skivo-wallet.png",
+      "/skivo-rides.png",
+    ],
+
+    overview:
+      "Skivo is an electric scooter rental platform designed for on-demand urban mobility. The app enables users to rent scooters, manage wallet balances, track ride history, and choose flexible rental plans — all from a single mobile experience. The project focused on creating a seamless, trust-building interface for eco-conscious commuters.",
+
+    objectives: [
+      "Simplify the electric scooter rental experience",
+      "Provide secure in-app wallet and payment management",
+      "Enable ride history tracking with detailed summaries",
+      "Build trust through transparent pricing and refund flows",
+    ],
+
+    problem:
+      "Existing scooter rental apps often have complex onboarding, unclear pricing, and poor wallet management. Users struggle with understanding deposit policies, tracking ride expenses, and managing their rental subscriptions efficiently.",
+
+    solution:
+      "A clean, mobile-first app with a streamlined sign-up flow, intuitive dashboard showing wallet balance and remaining rental days, quick-action scooter rental, and a comprehensive wallet section with transaction history, refund requests, and security deposit management.",
+
+    features: [
+      "One-tap scooter rental with nearby ride discovery",
+      "In-app wallet with balance top-up and security deposit tracking",
+      "Detailed transaction history with date-range filtering",
+      "Ride summary with vehicle details, duration, and payment method",
+      "Referral code system for user growth",
+      "Flexible rental plans with day-based tracking",
+    ],
+
+    approach:
+      "The design uses a warm orange-and-white color palette that conveys energy and eco-friendliness. Card-based UI patterns with clear hierarchy ensure users can quickly access key actions. The bottom navigation (Home, Rentals, Bookings, Profile) keeps all features within one tap.",
+
+    outcome:
+      "The app provides a frictionless rental experience that builds user trust through transparent wallet management and clear ride tracking, encouraging repeat usage and eco-friendly commuting.",
   },
 ];
+
 
 // ─────────────────────────────────────────────
 // PROCESS STEPS (unchanged)
@@ -395,4 +337,5 @@ export const processSteps: ProcessStep[] = [
     bgColor: "#3a9bfb",
     offsetPercent: 20,
   },
+
 ];

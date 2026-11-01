@@ -9,6 +9,7 @@ export interface Project {
   slug: string;
   image: string;           // main cover image (used in card hover + case study hero)
   images: string[];        // 1–2 extra images shown inside the case study body
+  wideMockups?: boolean;   // true = mockups are laptop/desktop shots (shown 2-up, wide)
   mockups: string[];       // phone / tablet mockup PNGs (transparent bg)
   overview: string;
   objectives: string[];

@@ -4,19 +4,11 @@ export const site = {
   shortName: "Tarun",
   role: "UI/UX Designer",
   location: "India",
-<<<<<<< HEAD
-  email: "tarunkumarbiswas@gmail.com",
-  description:
-    "UI/UX designer focused on intuitive dashboards, SaaS products and business websites.",
-  links: [
-    { label: "Email", handle: "tarunkumarbiswas@gmail.com", href: "mailto:tarunkumarbiswas@gmail.com" },
-=======
   email: "tarunbiswas2800@gmail.com",
   description:
     "UI/UX designer focused on intuitive dashboards, SaaS products and business websites.",
   links: [
     { label: "Email", handle: "tarunbiswas2800@gmail.com", href: "mailto:tarunbiswas2800@gmail.com" },
->>>>>>> 9565a79f50c33d47065f31f4575b7a3fff9669dd
     { label: "LinkedIn", handle: "@tarun-biswas", href: "https://www.linkedin.com/in/tarun-biswas-376175229" },
     { label: "Instagram", handle: "@tarunn___28", href: "https://www.instagram.com/tarunn___28" },
   ],
