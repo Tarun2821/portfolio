@@ -140,8 +140,12 @@ export const projects: Project[] = [
     // e.g. ["/task-board.png", "/task-detail.png"]
     images: ["/task2.png", "/task3.png"],
 
+<<<<<<< HEAD
     // Wide laptop mockup of the task detail screen (shown under "Screens & Mockups")
     mockups: ["/task4.png"],
+=======
+    mockups: [],
+>>>>>>> 9565a79f50c33d47065f31f4575b7a3fff9669dd
 
     overview:
       "A task management system designed to help individuals and teams organize, track, and manage their daily tasks efficiently. The goal was to create a clear and structured interface that improves productivity and reduces task management complexity.",
@@ -174,6 +178,7 @@ export const projects: Project[] = [
     outcome:
       "The system improves task organization, enhances productivity, and enables users to manage their work more effectively with clear tracking and prioritization.",
   },
+<<<<<<< HEAD
 
   // ─────────────────────────────────────────────
   // PROJECT 4 — Multi Care Engineering App
@@ -281,6 +286,63 @@ export const projects: Project[] = [
 
     outcome:
       "The interface brings authentication, dashboard actions, wallet management and ride history into one cohesive mobile experience, giving users a clear foundation to manage their scooter-rental activity from a single app. Next steps: validate the rental journey with usability testing, test wallet, deposit and refund terminology, review accessibility (contrast and touch targets), and measure task completion and drop-off across the booking flow.",
+=======
+  // ─────────────────────────────────────────────
+  // PROJECT 4 — Multi Engineer Service
+  // ─────────────────────────────────────────────
+  {
+    id: 4,
+    title: "MULTI ENGINEER SERVICE",
+    category: ["Mobile Design", "Field Service App"],
+    year: "2026",
+    description:
+      "A mobile app for field technicians to manage complaints, AMC visits, installations, stock, expenses and vehicles from one place, on the go.",
+    bgColor: "#0b1a33",
+    accentColor: "#4f8dff",
+    slug: "multi-engineer-service",
+
+    image: "/multicare-banner.png",
+    images: ["/multicare-banner.png", "/multicare-4.png"],
+    mockups: [
+      "/multicare-1.png",
+      "/multicare-2.png",
+      "/multicare-4.png",
+      "/multicare-5.png",
+      "/multicare-6.png",
+      "/multicare-3.png",
+    ],
+
+    overview:
+      "Multi Engineer Service is a field service system for technicians who spend their day on site. The app brings complaints, AMC and installation tracking, stock, expenses and vehicle records into a single mobile experience, so work can be updated on the go instead of at the end of the day.",
+
+    objectives: [
+      "Give technicians one app for all daily field work",
+      "Make open and completed complaints visible at a glance",
+      "Simplify stock requests, transfers and delivery tracking",
+      "Let technicians upload photos, reports and expenses instantly",
+    ],
+
+    problem:
+      "Field work was spread across calls, paper and separate tools. Technicians had no single place to see their complaints, installations, stock and expenses, which made updates slow and status hard to follow.",
+
+    solution:
+      "A mobile-first app with a home dashboard that summarises open complaints, completed complaints and expenses, and quick access to stock management and feature modules. Short onboarding screens explain AMC and installation tracking and photo and expense uploads before the first use.",
+
+    features: [
+      "Today's overview with open complaints, completed complaints and expenses",
+      "Complaint list with search, filters, priority and status tags",
+      "Stock list, stock transfer and stock request flows",
+      "Assigned transfer tracking with delivery status",
+      "AMC, installation, fire extinguisher, CRT and vehicle modules",
+      "Technician profile with contact and work information",
+    ],
+
+    approach:
+      "The design uses a clean card-based layout with a persistent bottom navigation for Complaint, Installation, Home, Expense and Profile. Colour-coded summary cards and status chips make progress readable in a glance, and large touch targets suit use on site.",
+
+    outcome:
+      "Technicians get a single, clear place to handle complaints, stock and expenses, which makes field updates faster and gives teams better visibility into work in progress.",
+>>>>>>> 9565a79f50c33d47065f31f4575b7a3fff9669dd
   },
 ];
 
