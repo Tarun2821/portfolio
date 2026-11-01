@@ -173,117 +173,113 @@ export const projects: Project[] = [
     outcome:
       "The system improves task organization, enhances productivity, and enables users to manage their work more effectively with clear tracking and prioritization.",
   },
+
   // ─────────────────────────────────────────────
-  // PROJECT 4 — Multi Engineer Service
+  // PROJECT 4 — Multi Care Engineering App
   // ─────────────────────────────────────────────
   {
     id: 4,
-    title: "MULTI ENGINEER SERVICE",
-    category: ["Mobile Design", "Field Service App"],
+    title: "MULTI CARE ENGINEERING",
+    category: ["Mobile App", "UI/UX Design"],
     year: "2026",
     description:
-      "A mobile app for field technicians to manage complaints, AMC visits, installations, stock, expenses and vehicles from one place, on the go.",
-    bgColor: "#0b1a33",
-    accentColor: "#4f8dff",
-    slug: "multi-engineer-service",
+      "A mobile app for Multi Care Engineering to present services, simplify service requests, and keep customers connected with the engineering team.",
+    bgColor: "#0c1624",
+    accentColor: "#4a9ee8",
+    slug: "multi-care-engineering",
 
-    image: "/multicare-banner.png",
-    images: ["/multicare-banner.png", "/multicare-4.png"],
-    mockups: [
-      "/multicare-1.png",
-      "/multicare-2.png",
-      "/multicare-4.png",
-      "/multicare-5.png",
-      "/multicare-6.png",
-      "/multicare-3.png",
-    ],
+    // TODO: replace placeholder with the real banner (upload Multi-care zip was corrupted)
+    image: "/multicare-cover.png",
+    images: [],
+    mockups: [],
 
     overview:
-      "Multi Engineer Service is a field service system for technicians who spend their day on site. The app brings complaints, AMC and installation tracking, stock, expenses and vehicle records into a single mobile experience, so work can be updated on the go instead of at the end of the day.",
+      "Multi Care Engineering is an engineering services company. The goal of this project was to design a clear, easy-to-use app that presents the company's services and makes it simple for customers to reach the team and request support.",
 
     objectives: [
-      "Give technicians one app for all daily field work",
-      "Make open and completed complaints visible at a glance",
-      "Simplify stock requests, transfers and delivery tracking",
-      "Let technicians upload photos, reports and expenses instantly",
+      "Present engineering services in a clear, structured way",
+      "Make service requests quick and straightforward",
+      "Build trust through a clean, professional interface",
+      "Keep customers connected with the team",
     ],
 
     problem:
-      "Field work was spread across calls, paper and separate tools. Technicians had no single place to see their complaints, installations, stock and expenses, which made updates slow and status hard to follow.",
+      "Customers had no single, simple place to understand the available services or request help. Information was spread out, making it slow to get in touch and hard to follow up.",
 
     solution:
-      "A mobile-first app with a home dashboard that summarises open complaints, completed complaints and expenses, and quick access to stock management and feature modules. Short onboarding screens explain AMC and installation tracking and photo and expense uploads before the first use.",
+      "Designed a mobile app that organizes services into a simple structure and gives customers a direct path to enquire, request support and stay in touch with the team.",
 
     features: [
-      "Today's overview with open complaints, completed complaints and expenses",
-      "Complaint list with search, filters, priority and status tags",
-      "Stock list, stock transfer and stock request flows",
-      "Assigned transfer tracking with delivery status",
-      "AMC, installation, fire extinguisher, CRT and vehicle modules",
-      "Technician profile with contact and work information",
+      "Clear service listing and categories",
+      "Quick service request and enquiry flow",
+      "Direct contact with the engineering team",
+      "Clean, professional visual identity",
+      "Responsive, mobile-first layouts",
     ],
 
     approach:
-      "The design uses a clean card-based layout with a persistent bottom navigation for Complaint, Installation, Home, Expense and Profile. Colour-coded summary cards and status chips make progress readable in a glance, and large touch targets suit use on site.",
+      "A mobile-first approach with strong hierarchy, generous spacing and a calm blue palette that communicates reliability. Navigation is kept shallow so key actions are always within a tap or two.",
 
     outcome:
-      "Technicians get a single, clear place to handle complaints, stock and expenses, which makes field updates faster and gives teams better visibility into work in progress.",
+      "The app gives customers a clearer view of the services on offer and a faster route to getting support.",
   },
 
   // ─────────────────────────────────────────────
-  // PROJECT 5 — Skivo
+  // PROJECT 5 — Skivo (smart scooter rental app)
   // ─────────────────────────────────────────────
   {
     id: 5,
     title: "SKIVO",
-    category: ["Mobile Design", "Case Study"],
+    category: ["Mobile App", "UI/UX Design"],
     year: "2026",
     description:
-      "A mobile app for renting electric scooters on demand — featuring wallet management, ride tracking, flexible rental plans, and eco-friendly urban mobility.",
-    bgColor: "#1a0f0a",
-    accentColor: "#e86532",
+      "A smart scooter rental app that brings renting, wallet management, booking details and ride history together in one simple mobile experience for iOS and Android.",
+    bgColor: "#2a140c",
+    accentColor: "#e8663d",
     slug: "skivo",
 
-    image: "/skivo-banner.jpg",
-    images: ["/skivo-banner.jpg", "/skivo-wallet.png"],
+    image: "/skivo-cover.png",
+    images: [],
     mockups: [
       "/skivo-splash.png",
-      "/skivo-login.png",
+      "/skivo-signin.png",
       "/skivo-dashboard.png",
       "/skivo-wallet.png",
       "/skivo-rides.png",
     ],
 
     overview:
-      "Skivo is an electric scooter rental platform designed for on-demand urban mobility. The app enables users to rent scooters, manage wallet balances, track ride history, and choose flexible rental plans — all from a single mobile experience. The project focused on creating a seamless, trust-building interface for eco-conscious commuters.",
+      "SKIVO is a smart scooter rental application designed to make everyday commuting more convenient. It brings the essential rental activities into one mobile experience, letting users access their account, view wallet information, manage rides and review booking history. Industry: Mobility & Transportation. My role: UI/UX Designer. Platform: iOS / Android.",
 
     objectives: [
-      "Simplify the electric scooter rental experience",
-      "Provide secure in-app wallet and payment management",
-      "Enable ride history tracking with detailed summaries",
-      "Build trust through transparent pricing and refund flows",
+      "Simplify access: make key rental actions easy to find from the dashboard",
+      "Build clarity: present wallet balance, security deposit and transactions clearly",
+      "Support ride management: help users review all, upcoming and cancelled rides",
+      "Create consistency: use repeatable components, spacing and visual patterns",
     ],
 
     problem:
-      "Existing scooter rental apps often have complex onboarding, unclear pricing, and poor wallet management. Users struggle with understanding deposit policies, tracking ride expenses, and managing their rental subscriptions efficiently.",
+      "Vehicle rental journeys can feel fragmented when users have to move between separate steps or struggle to understand payment and booking information. The interface needed to make important actions easy to discover and rental-related information easy to understand. Target users: daily commuters, students and young professionals, and occasional riders who need a scooter for short trips.",
 
     solution:
-      "A clean, mobile-first app with a streamlined sign-up flow, intuitive dashboard showing wallet balance and remaining rental days, quick-action scooter rental, and a comprehensive wallet section with transaction history, refund requests, and security deposit management.",
+      "A focused app built around practical user needs: mobile-number sign-in with terms confirmation, a dashboard centred on the main 'Rent a Scooter' action, a wallet that separates balance from security deposit, and a ride summary organized by All, Upcoming and Cancelled. The principle: keep high-frequency actions prominent, make financial information scannable, and use familiar navigation patterns.",
 
     features: [
-      "One-tap scooter rental with nearby ride discovery",
-      "In-app wallet with balance top-up and security deposit tracking",
-      "Detailed transaction history with date-range filtering",
-      "Ride summary with vehicle details, duration, and payment method",
-      "Referral code system for user growth",
-      "Flexible rental plans with day-based tracking",
+      "Mobile-number sign-in / sign-up with terms confirmation",
+      "Dashboard with wallet balance and remaining rental days",
+      "One-tap 'Rent a Scooter' quick action",
+      "Wallet with add money, refund and security deposit",
+      "Transaction history with date filters and categories",
+      "Ride summary with All, Upcoming and Cancelled tabs plus filter and sort",
+      "Booking cards with location, vehicle, duration and payment method",
+      "Refer & Earn with a shareable referral code",
     ],
 
     approach:
-      "The design uses a warm orange-and-white color palette that conveys energy and eco-friendliness. Card-based UI patterns with clear hierarchy ensure users can quickly access key actions. The bottom navigation (Home, Rentals, Bookings, Profile) keeps all features within one tap.",
+      "The process moved from Understand (requirements and main user tasks), to Structure (navigation across sign-in, dashboard, wallet, rentals, bookings and profile), to Layout (screen hierarchy and primary vs secondary actions), to Visual Design and finally Refine. The visual direction uses orange/coral for primary actions, navy for headings and contrast, light blue/white for surfaces and green for positive financial states, with a card-based layout, rounded corners and consistent spacing for quick scanning.",
 
     outcome:
-      "The app provides a frictionless rental experience that builds user trust through transparent wallet management and clear ride tracking, encouraging repeat usage and eco-friendly commuting.",
+      "The interface brings authentication, dashboard actions, wallet management and ride history into one cohesive mobile experience, giving users a clear foundation to manage their scooter-rental activity from a single app. Next steps: validate the rental journey with usability testing, test wallet, deposit and refund terminology, review accessibility (contrast and touch targets), and measure task completion and drop-off across the booking flow.",
   },
 ];
 
