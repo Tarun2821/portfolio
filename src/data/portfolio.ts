@@ -175,53 +175,60 @@ export const projects: Project[] = [
   },
 
   // ─────────────────────────────────────────────
-  // PROJECT 4 — Multi Care Engineering App
+  // PROJECT 4 — Multi Engineer Service
   // ─────────────────────────────────────────────
   {
     id: 4,
-    title: "MULTI CARE ENGINEERING",
-    category: ["Mobile App", "UI/UX Design"],
+    title: "MULTI ENGINEER SERVICE",
+    category: ["Mobile Design", "Field Service App"],
     year: "2026",
     description:
-      "A mobile app for Multi Care Engineering to present services, simplify service requests, and keep customers connected with the engineering team.",
-    bgColor: "#0c1624",
-    accentColor: "#4a9ee8",
-    slug: "multi-care-engineering",
+      "A mobile app for field technicians to manage complaints, AMC visits, installations, stock, expenses and vehicles from one place, on the go.",
+    bgColor: "#0b1a33",
+    accentColor: "#4f8dff",
+    slug: "multi-engineer-service",
 
-    // TODO: replace placeholder with the real banner (upload Multi-care zip was corrupted)
-    image: "/multicare-cover.png",
-    images: [],
-    mockups: [],
+    image: "/multicare-banner.png",
+    images: ["/multicare-banner.png", "/multicare-4.png"],
+    mockups: [
+      "/multicare-1.png",
+      "/multicare-2.png",
+      "/multicare-4.png",
+      "/multicare-5.png",
+      "/multicare-6.png",
+      "/multicare-3.png",
+    ],
 
     overview:
-      "Multi Care Engineering is an engineering services company. The goal of this project was to design a clear, easy-to-use app that presents the company's services and makes it simple for customers to reach the team and request support.",
+      "Multi Engineer Service is a field service system built for technicians who spend their day on site. The app brings complaints, AMC and installation tracking, stock management, expenses and vehicle records into a single mobile experience — so work can be updated on the go instead of at the end of the day.",
 
     objectives: [
-      "Present engineering services in a clear, structured way",
-      "Make service requests quick and straightforward",
-      "Build trust through a clean, professional interface",
-      "Keep customers connected with the team",
+      "Give technicians one app for all daily field work",
+      "Make open and completed complaints visible at a glance",
+      "Simplify stock requests, transfers and delivery tracking",
+      "Let technicians upload photos, reports and expenses instantly",
     ],
 
     problem:
-      "Customers had no single, simple place to understand the available services or request help. Information was spread out, making it slow to get in touch and hard to follow up.",
+      "Field work was spread across calls, paper and separate tools. Technicians had no single place to see their complaints, installations, stock and expenses, which made updates slow and status hard to follow.",
 
     solution:
-      "Designed a mobile app that organizes services into a simple structure and gives customers a direct path to enquire, request support and stay in touch with the team.",
+      "A mobile-first app with a home dashboard that summarises open complaints, completed complaints and expenses, and quick access to stock management, AMC, CRT, fire extinguisher and vehicle modules. Short onboarding screens explain features before first use.",
 
     features: [
-      "Clear service listing and categories",
-      "Quick service request and enquiry flow",
-      "Direct contact with the engineering team",
-      "Clean, professional visual identity",
-      "Responsive, mobile-first layouts",
+      "Today's overview with open complaints, completed complaints and expenses",
+      "Complaint list with search, filters, priority and status tags",
+      "Stock list, stock transfer and stock request flows",
+      "Assigned transfer tracking with delivery status",
+      "AMC, installation, fire extinguisher, CRT and vehicle modules",
+      "Technician profile with contact and work information",
     ],
 
     approach:
-      "A mobile-first approach with strong hierarchy, generous spacing and a calm blue palette that communicates reliability. Navigation is kept shallow so key actions are always within a tap or two.",
+      "The design uses a clean card-based layout with a persistent bottom navigation for Complaint, Installation, Home, Expense and Profile. Colour-coded summary cards and status chips make progress readable at a glance, and large touch targets suit use on site.",
 
     outcome:
-      "The app gives customers a clearer view of the services on offer and a faster route to getting support.",
+      "Technicians get a single, clear place to handle complaints, stock and expenses, which makes field updates faster and gives teams better visibility into work in progress.",
   },
 
   // ─────────────────────────────────────────────
